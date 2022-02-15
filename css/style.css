@@ -32,8 +32,8 @@ ul {
 
 img {
   display: block;
-  /* max-width: 100%;
-  height: auto; */
+  min-width: 100%;
+  height: auto;
 }
 
 body {
@@ -48,6 +48,7 @@ body {
 
 .link {
   text-decoration: none;
+  display: block;
 }
 
 .container {
@@ -87,6 +88,10 @@ body {
 .section {
   padding-top: 96px;
   padding-bottom: 94px;
+}
+
+.container > h2 {
+  margin-bottom: 50px;
 }
 
 /* ------------ Header ---------- */
@@ -245,7 +250,6 @@ body {
 
 .busyness-list {
   display: flex;
-  margin-top: 50px;
 }
 
 .busyness-item {
@@ -263,7 +267,6 @@ body {
 
 .command-list {
   display: flex;
-  margin-top: 50px;
 }
 
 .command-item {
@@ -310,12 +313,13 @@ body {
 
 .footer-logo-color {
   color: #ffffff;
+}
+
+.logo.link {
   margin-bottom: 20px;
 }
 
 .footer-address {
-  margin-top: 20px;
-
   font-style: normal;
 }
 
